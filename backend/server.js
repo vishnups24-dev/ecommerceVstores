@@ -8,7 +8,7 @@ const PORT = process.env.PORT;
   try {
     ConnectDB();
     app.listen(PORT, () => {
-      console.log("server connected");
+      console.log("server connected running on ",PORT);
     });
   } catch (error) {
     console.log("Cant connect to server");
